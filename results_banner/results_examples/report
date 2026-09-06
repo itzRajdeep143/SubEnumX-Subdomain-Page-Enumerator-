@@ -1,0 +1,29 @@
+SubEnumX v0.1.0
+Target: example.com
+Time (UTC): 2026-03-12 06:28:11Z
+
+[+] Subdomains discovered: 6
+  - dev.example.com
+  - example.com
+  - m.example.com
+  - products.example.com
+  - support.example.com
+  - www.example.com
+
+[*] Resolving DNS (A/AAAA/CNAME)...
+[+] Hosts that resolve: 2/6
+  - example.com (A=104.18.26.120,104.18.27.120)
+  - www.example.com (A=104.18.26.120,104.18.27.120 | AAAA=2606:4700:91b2:8c7c:330c:0:ccc4:a209)
+
+[*] Probing HTTP(S) for 2 hosts...
+[+] Hosts responding over HTTP(S): 2/2
+  - example.com -> 200 (http://example.com/)
+  - www.example.com -> 200 (http://www.example.com/)
+
+[*] Crawling pages on 2 live hosts...
+[+] www.example.com pages (1):
+  - http://www.example.com/
+
+[+] example.com pages (1):
+  - http://example.com/
+
