@@ -1,0 +1,17 @@
+SOURCES-
+hackertarget: 
+rapiddns: 
+crtsh: 0 (down/blocked)
+bufferover: 0 (down/blocked)
+
+
+cd /home/your_username/subenumx
+source .venv/bin/activate
+
+python -m subenumx -d target.com --timeout 8 --crt-retries 0
+
+Save everything to files-
+python -m subenumx -d target.com --timeout 8 --crt-retries 0 --resolve --probe --out-dir results_target
+
+
+If you still get 0 from every source, that usually means your network/DNS/firewall is blocking those OSINT sites (not a bug in your code).
